@@ -1,16 +1,37 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+All notable changes in TA Scheduling App will be documented in this file.
 
 ## Sprint 3
 ### Added
-- Permissions groups for Django.
-  - Groups: TA, Instructor, Administrator, Supervisor
+
+- Implemented permissions so not everyone is allowed to edit/view
+- Login and Signup implementation with forms
+- Permissions groups for Django (Custom Migration)
+  - Groups: TA, Instructor, Administrator, Supervisor, Default
+- Added CSS styling to website
+- Created html templates for each of our main app features
+  - Courses
+    - add course
+    - edit course
+    - view courses
+  - Sections
+    - add course
+    - edit course
+    - view courses
+  - Users 
+    - add user
+    - edit user
+    - view user
+    - assign user to section
+  - Registration
+    - login
+    - signup
+
 
 ### Changed
-- 
+- views.py rewritten to use class based views
+- All the managers modified to return dictionaries
 
-### Removed
--
 
 ## Sprint 2
 ### Added
