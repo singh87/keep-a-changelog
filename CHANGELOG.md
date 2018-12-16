@@ -37,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Start using "changelog" over "change log" since it's the common usage.
 - Start versioning based on the current English version at 0.3.0 to help
 translation authors keep things up-to-date.
-- Rewrite "What makes unicorns cry?" section.
+- Rewrite "What makes unicorns cry?" section. 
 - Rewrite "Ignoring Deprecations" sub-section to clarify the ideal
   scenario.
 - Improve "Commit log diffs" sub-section to further argument against
